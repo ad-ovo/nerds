@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Дизайн-студия &#171;Nerds&#187;</title>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="main-header">
+    	<div class="container">
+    		<div class="header-logo">
+				<a href="index.html">
+					<img src="img/header-logo.png" width="139" height="56" alt="Nerds">
+				</a>
+			</div>
+			<nav class="main-navigation">
+				<ul>
+					<li>
+						<a href="index.html">Студия</a>
+					</li>
+					<li>
+						<a href="#">Клиенты</a>
+					</li>
+					<li>
+						<a href="catalog.html">Магазин</a>
+					</li>
+					<li>
+						<a href="map.html">Контакты</a>
+					</li>
+				</ul>				
+			</nav>
+			<div class="user-block">
+				<a href="#" class="basket">
+					<i class="icon-basket"></i>
+					Корзина
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+        <div class="write-us-page">
+	        <form action="/echo" method="post" class="modal-form">
+	        	<div class="modal-content-name">
+        		<label for="name-field">Ваше имя:</label>
+        		<input id="name-field" type="text" name="name" placeholder="ПРЕДСТАВЬТЕСЬ, ПОЖАЛУЙСТА" required>
+        	</div>
+            <div class="modal-content-email">
+            	<label for="email-field">Ваш e-mail:</label>
+            	<input id="email-field" type="text" name="email" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА" required>
+            </div>
+            <label for="text-field">Текст письма:</label>
+            <textarea id="text-field" name="text" placeholder="В СВОБОДНОЙ ФОРМЕ" required></textarea>
+            <button type="submit" class="btn btn-submit">Отправить</button>
+            <button type="reset" class="btn btn-reset">Отмена</button>
+	        </form>
+    	</div>
+	</div>
+
+	<footer class="main-footer"> 	
+	    <div class="container">
+	        <div class="footer-social">
+	            <a href="#" class="social-btn social-btn-vk">
+	            	<i class="icon-vk"></i>
+	            </a>
+	            <a href="#" class="social-btn social-btn-fb">
+	            	<i class="icon-facebook"></i>
+	            </a>
+	            <a href="#" class="social-btn social-btn-inst">
+	            	<i class="icon-instagramm"></i>
+	            </a>
+	        </div>
+	        <div class="social-friends">
+	            <h2>Давайте дружить, это выгодно!</h2>
+	            <p>Скидка 10% для друзей из социальных сетей.</p>
+	        </div>
+	    </div>
+	</footer>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/js.min.js" type="text/javascript"></script>
+</body>
+</html>
